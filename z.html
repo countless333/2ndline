@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)https://jamsil.today/ -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <title>세계관 최강자들 미쳤다</title>
+
+    <style>
+        /* 슬라이드쇼 컨테이너 스타일링 */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        /* 이미지 스타일링 */
+        .mySlides {
+            display: none;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* 헤더 스타일링 */
+        header {
+            background-color: orange;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* 버튼 스타일링 */
+        button {
+            background-color: gray;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1 style="text-align:center;">이건 김은석홈페이지</h1>
+    <nav>의
+        <div>
+            <button>레전드편</button>
+            <button>등장인물</button>
+            <button>피규어</button>
+        </div>
+    </nav>
+</header>
+
+<div class="slideshow-container">
+    <img class="mySlides"
+         src="https://static.mlb-korea.com/images/goods/detail/m/20220413/32SHU2111-50L-65833185290731691.jpg/dims/resize/828x828"
+         alt="나루토" style="display: none;">
+    <img class="mySlides" src="https://cdn-icons-png.flaticon.com/512/4768/4768433.png" alt="나루토"
+         style="display: none;">
+    <img class="mySlides"
+         src="https://static.mlb-korea.com/images/goods/detail/m/20220413/32SHU2111-50L-65833185290731691.jpg/dims/resize/828x828"
+         alt="나루토" style="display: none;">
+    <img class="mySlides" src="https://cdn-icons-png.flaticon.com/512/4768/4768433.png" alt="나루토"
+         style="display: none;">
+    <img class="mySlides"
+         src="https://kr-a.kakaopagecdn.com/P/C/8/c1/2x/5f22efea-ced8-4848-b19a-64ee39186574.png"
+         alt="나루토" style="display: none;">
+
+
+    <img class="mySlides"
+         src="https://static.mlb-korea.com/images/goods/detail/m/20220413/32SHU2111-50L-65833185290731691.jpg/dims/resize/828x828"
+         alt="나루토" style="display: block;">
+
+</div>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S76ZmGQ32XI" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // 이미지 전환 시간 설정 (2초)
+    }
+</script>
+
+
+</body>
+</html>
